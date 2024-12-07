@@ -13,16 +13,19 @@ import Practice from './Practice'
 import TodoLists from './TodoLists'
 import Todo from './Todo'
 import RefExample from './RefExample'
+import Counter from './Counter'
+import StateObject from './StateObject'
+import UseEffect from './UseEffect'
+import FacColor from './FacColor'
+import ChildB from './ChildB'
 
 function App() {
 
 
   return (
-    <>
-    {/* <TodoLists/> */}
-    {/* <Todo/> */}
-    <RefExample/>
-    </>
+   <>
+   <ChildB/>
+   </>
   )
 }
 
