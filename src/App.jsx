@@ -18,14 +18,32 @@ import StateObject from './StateObject'
 import UseEffect from './UseEffect'
 import FacColor from './FacColor'
 import ChildB from './ChildB'
+import Software from './Software'
+import UseRef from './UseRef'
+import Header from './Header'
+import UseMemo from './UseMemo'
+import UseContext from './UseContext'
+import ProductTab from './ProductTab'
+import Count from './Count'
+import ArrayStateObject from './ArrayStateObject'
+import Lists from './Lists'
+import Lottery from './Lottery'
+import { Route, Routes } from 'react-router-dom'
+import Home from './Home'
+import About from './About'
+import Contact from './Contact'
 
 function App() {
 
 
   return (
-   <>
-   <ChildB/>
-   </>
+    <Routes>
+      <Route path='/home' element={<Home/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+
+
+    </Routes>
   )
 }
 

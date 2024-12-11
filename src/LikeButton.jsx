@@ -17,6 +17,6 @@ export default function LikeButton()
             <p onClick={clicked} style={styles}>
             {like?(<i class="fa-solid fa-heart"></i>):(<i class="fa-regular fa-heart"></i>)}
             </p>
-        </div>
+        </div>  
     );
 }
