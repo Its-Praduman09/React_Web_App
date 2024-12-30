@@ -17,7 +17,7 @@ import Counter from './Counter'
 import StateObject from './StateObject'
 import UseEffect from './UseEffect'
 import FacColor from './FacColor'
-import ChildB from './ChildB'
+// import ChildB from './ChildB'
 import Software from './Software'
 import UseRef from './UseRef'
 import Header from './Header'
@@ -28,23 +28,38 @@ import Count from './Count'
 import ArrayStateObject from './ArrayStateObject'
 import Lists from './Lists'
 import Lottery from './Lottery'
-import { Route, Routes } from 'react-router-dom'
+// import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 
+import axios from 'axios'
+import ProgressBar from './ProgressBar'
+import './ProgressBar.css'
+import { createContext, useContext, useEffect, useMemo, useReducer, useState } from 'react'
+import ProductMain from './ProductMain'
+import UseEffect1 from './UseEffect1'
+import ParentComponent from './ParentComponent'
+import UseRefEx1 from './useRefEx1'
+import UseMemoEx1 from './UseMemoEx1'
+import UseCallback from './UseCallback'
+import TodoListApp from './TodoListApp'
+import UseReducer from './UseReducer'
+import CustomHook from './customHook'
+import TodoApplication1 from './TodoApplication1'
+
+
+
+
 function App() {
-
-
-  return (
-    <Routes>
-      <Route path='/home' element={<Home/>}/>
-      <Route path='/about' element={<About/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-
-
-    </Routes>
-  )
-}
-
-export default App
+    
+ return(
+  <>
+  <TodoApplication1/>
+  </>
+ );
+}           
+  
+export default App;                 
+                                                                                                                
+          
